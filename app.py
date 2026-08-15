@@ -48,8 +48,8 @@ prompt = ["""
 """]
 
 # Streamlit app configuration
-st.set_page_config(page_title="RetrieveGPT")
-st.header("Retrieve_GPT")
+st.set_page_config(page_title="DB-Copilot")
+st.header("DB-Copilot")
 
 question = st.text_input("Input your question:", key='input')
 submit = st.button("Submit")

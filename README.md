@@ -1,4 +1,4 @@
-# 🤖 RetrieveGPT — Natural Language to SQL Query Engine
+# 🤖 DB-Copilot — Natural Language to SQL Query Engine
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -6,7 +6,7 @@
 [![SQLite](https://img.shields.io/badge/SQLite-3-003B57.svg?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**RetrieveGPT** is an intelligent Generative AI-driven database query agent that translates plain English natural language questions into syntactically precise SQL queries using **Google Gemini 2.5 Flash**, executes them seamlessly against an **SQLite** database, and displays structured real-time results through an intuitive **Streamlit** dashboard.
+**DB-Copilot** is an intelligent Generative AI-driven database query agent that translates plain English natural language questions into syntactically precise SQL queries using **Google Gemini 2.5 Flash**, executes them seamlessly against an **SQLite** database, and displays structured real-time results through an intuitive **Streamlit** dashboard.
 
 ---
 
@@ -42,8 +42,8 @@ flowchart LR
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/retrieve-GPT.git
-cd retrieve-GPT
+git clone https://github.com/VickyJayraj/DB-Copilot.git
+cd DB-Copilot
 ```
 
 ### 2. Install Dependencies
@@ -74,14 +74,14 @@ streamlit run app.py
 
 | Database Overview | Natural Language Query Example | Output Results |
 | :---: | :---: | :---: |
-| ![Database Sample](https://cdn-uploads.huggingface.co/production/uploads/66a41712509b600cba4c48f2/RKhitiCIoC10E4M34XOkj.png) | ![Query Prompt](https://cdn-uploads.huggingface.co/production/uploads/66a41712509b600cba4c48f2/Q0BHJSRIkfHYnRD312xbO.png) | ![Output](https://cdn-uploads.huggingface.co/production/uploads/66a41712509b600cba4c48f2/EqKQdBXhbuAlnKCcpWYLU.png) |
+| ![Database Sample](https://cdn-uploads.huggingface.co/production/uploads/66a41712509b600cba4c48f2/RKhitiCIoC10E4M34XOkj.png) | ![Query Prompt](https://cdn-uploads.huggingface.co/production/uploads/66a41712509b600cba4c48f2/Q0BHJSRIkfHYnRD312xbO.png) | ![Output](https://cdn-uploads.huggingface.co/production/uploads/66a41712509b600cba4c48f2/EqKQdBXhbuAlnKQcpWYLU.png) |
 
 ---
 
 ## 🛠️ Project Structure
 
 ```
-retrieve-GPT/
+DB-Copilot/
 ├── app.py              # Main Streamlit web application & LLM orchestration
 ├── sqlite.py           # Database setup script & sample data seeding
 ├── requirements.txt    # Python package dependencies
@@ -94,10 +94,11 @@ retrieve-GPT/
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/retrieve-GPT/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/VickyJayraj/DB-Copilot/issues).
 
 ---
 
 ## 📜 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
