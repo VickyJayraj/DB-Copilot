@@ -15,7 +15,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Create a function to load the Gemini model and get a response
 def get_gemini_response(query, prompt):
-    model = genai.GenerativeModel("models/gemini-2.5-flash")
+    model = genai.GenerativeModel("gemini-pro")
     response = model.generate_content([prompt[0], query])
     print(response.text)
     return response.text

@@ -2,18 +2,18 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Google Gemini API](https://img.shields.io/badge/Google%20Gemini-2.5%20Flash-8E75B5.svg?logo=google&logoColor=white)](https://ai.google.dev/)
+[![Google Gemini API](https://img.shields.io/badge/Google%20Gemini-Pro-8E75B5.svg?logo=google&logoColor=white)](https://ai.google.dev/)
 [![SQLite](https://img.shields.io/badge/SQLite-3-003B57.svg?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**DB-Copilot** is an intelligent Generative AI-driven database query agent that translates plain English natural language questions into syntactically precise SQL queries using **Google Gemini 2.5 Flash**, executes them seamlessly against an **SQLite** database, and displays structured real-time results through an intuitive **Streamlit** dashboard.
+**DB-Copilot** is an intelligent Generative AI-driven database query agent that translates plain English natural language questions into syntactically precise SQL queries using **Google Gemini Pro**, executes them seamlessly against an **SQLite** database, and displays structured real-time results through an intuitive **Streamlit** dashboard.
 
 ---
 
 ## 🌟 Key Features
 
 - 💬 **Natural Language Querying**: Ask questions in plain English without writing a single line of SQL.
-- ⚡ **Powered by Gemini 2.5 Flash**: Delivers lightning-fast zero-shot SQL query generation with high precision.
+- ⚡ **Powered by Gemini Pro**: Delivers high-accuracy zero-shot SQL query generation.
 - 🛡️ **Automated Query Sanitization**: Custom system prompt rules prevent markdown formatting artifacts (e.g., backticks, `sql` tags) for direct executable SQL output.
 - 📊 **Real-time Database Execution**: Connects dynamically to SQLite to fetch, parse, and render table records instantly.
 - 🎨 **Minimalist Streamlit UI**: Clean, interactive Web UI designed for non-technical users and data analysts alike.
@@ -25,7 +25,7 @@
 ```mermaid
 flowchart LR
     A[👤 User Input\nNatural Language] --> B[🖥️ Streamlit Frontend]
-    B --> C[🧠 Gemini 2.5 Flash LLM\nPrompt Eng. Engine]
+    B --> C[🧠 Gemini Pro LLM\nPrompt Eng. Engine]
     C -->|Synthesized SQL Query| D[⚡ SQLite Database Engine]
     D -->|Record Dataset| B
     B --> E[📊 Interactive Output View]
